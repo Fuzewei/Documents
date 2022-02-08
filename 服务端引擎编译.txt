@@ -1,0 +1,4 @@
+1 sudo apt-get install libmysqlclient-dev     
+2.sudo apt-get install libtool
+3.jemalloc改.sh权限，然后执行autoconf,然后执行./autogen.sh
+4.改名
