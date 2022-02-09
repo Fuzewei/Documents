@@ -1,4 +1,10 @@
 1 sudo apt-get install libmysqlclient-dev     
 2.sudo apt-get install libtool
 3.jemalloc改.sh权限，然后执行autoconf,然后执行./autogen.sh
-4.改名
+4.libssl.a，头文件获取不到问题 处理方式是修改libssl.a的名字，不用现成的库
+
+assert问题
+1.云服务器防火墙设置，开放logapp端口
+2.缺少文件问题。
+3..sh添加执行权限
+4.baseapp强制设置地址（云服务器获取的是本地地址）
