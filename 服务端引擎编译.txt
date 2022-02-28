@@ -2,6 +2,7 @@
 2.sudo apt-get install libtool
 3.jemalloc改.sh权限，然后执行autoconf,然后执行./autogen.sh
 4.libssl.a，头文件获取不到问题 处理方式是修改libssl.a的名字，不用现成的库
+5.进入src文件，make编译
 
 assert问题
 1.云服务器防火墙设置，开放logapp端口
