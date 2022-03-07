@@ -8,4 +8,4 @@ assert问题
 1.云服务器防火墙设置，开放logapp端口
 2.缺少文件夹问题。
 3.为*.sh添加执行权限
-4.baseapp强制设置地址，通过 kbengine.xml（云服务器获取的是本地地址）
+4.baseapp强制设置地址，通过 kbengine.xml（云服务器获取的是本地地址）externalAddress
